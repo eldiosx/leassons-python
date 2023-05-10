@@ -5,7 +5,7 @@ and indicate which of the two values is greater.
 #console data entry
 a = float(input("Enter the first number: "))
 b = float(input("Enter the second number: "))
-
+#conditionals for comparisons of a and b
 if a > b:
     #print by console
     print(a, "is greater than", b)

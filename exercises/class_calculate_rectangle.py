@@ -3,7 +3,7 @@ Write a class called Rectangle that contains the base and height,
 and a method that returns the area of the shape.
 """
 
-#create class
+#create class for the figure
 class Rectangle:
     def __init__(self, base, height):
         self.base = base
