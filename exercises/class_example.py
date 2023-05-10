@@ -38,10 +38,13 @@ class Teacher(Person):
 
 
 person = Person("John", 30, "Male")
+#print by console
 print(person.introduce())
 
 student = Student("Ana", 20, "Female", "Programming")
+#print by console
 print(student.introduce())
 
 teacher = Teacher("Peter", 40, "Male", "Math")
+#print by console
 print(teacher.introduce())

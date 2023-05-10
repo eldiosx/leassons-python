@@ -3,7 +3,7 @@ Write a class called Rectangle that contains the base and height,
 and a method that returns the area of the shape.
 """
 
-
+#create class
 class Rectangle:
     def __init__(self, base, height):
         self.base = base
@@ -17,4 +17,5 @@ base = float(input("Enter the base of the rectangle: "))
 height = float(input("Enter the height of the rectangle: "))
 
 rectangle = Rectangle(base, height)
+#print by console
 print("The area of the rectangle is:", rectangle.calculate_area())
