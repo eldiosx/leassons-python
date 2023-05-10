@@ -5,6 +5,7 @@ and a method that returns the area of the shape.
 
 #create class for the figure
 class Rectangle:
+    #part of the data, for other figures more may be required
     def __init__(self, base, height):
         self.base = base
         self.height = height

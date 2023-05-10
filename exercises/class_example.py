@@ -8,6 +8,8 @@ An instance of each class is then created and the introduce()
 method is called to print its information.
 """
 
+#To create the classes, use one def to collect the data and another to apply it.
+
 #create class Person
 class Person:
     def __init__(self, name, age, gender):
