@@ -2,7 +2,7 @@
 Create two variables, assign a value read from the keyboard to each one,
 and indicate which of the two values is greater.
 """
-
+#console data entry
 a = float(input("Enter the first number: "))
 b = float(input("Enter the second number: "))
 

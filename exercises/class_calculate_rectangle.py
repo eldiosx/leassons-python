@@ -8,11 +8,11 @@ class Rectangle:
     def __init__(self, base, height):
         self.base = base
         self.height = height
-
+    #you can modify these formula for another figure
     def calculate_area(self):
         return self.base * self.height
 
-
+#console data entry
 base = float(input("Enter the base of the rectangle: "))
 height = float(input("Enter the height of the rectangle: "))
 
