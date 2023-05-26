@@ -15,6 +15,10 @@ Introduction
 
 # This is a comment on 1 line
 
+# Install Python and Pip tools, check with python --version & pip --version
+# Setup virtual environment: python3 -m venv env / source env/bin/activate
+# Upgrade pip: pip install --upgrade pip
+# Desactivate virtual environment: deactivate
 """
 This is a
 comment
